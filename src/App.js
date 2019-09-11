@@ -10,6 +10,14 @@ class App extends Component {
           <h1>Quote Maker</h1>
         </div>
         <hr />
+<<<<<<< HEAD
+=======
+        {/*
+          TODO:
+
+          Render QuoteForm and Quotes Components
+         */}
+>>>>>>> f8e88917e1d650d06d376331c7ad89e440911536
          <QuoteForm />
          <Quotes />
       </div>

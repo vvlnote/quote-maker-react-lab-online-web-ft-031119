@@ -7,7 +7,11 @@ class QuoteForm extends Component {
 
   state = {
     content: '',
+<<<<<<< HEAD
     author: '',
+=======
+    author: ''
+>>>>>>> f8e88917e1d650d06d376331c7ad89e440911536
   }
 
   handleOnChange = event => {
@@ -44,7 +48,11 @@ class QuoteForm extends Component {
                   <div className="form-group">
                     <label htmlFor="content" className="col-md-4 control-label">Quote</label>
                     <div className="col-md-5">
+<<<<<<< HEAD
                       <textarea name="content" onChange={event => this.handleOnChange(event)}
+=======
+                      <textarea name="content"
+>>>>>>> f8e88917e1d650d06d376331c7ad89e440911536
                         className="form-control"
                         value={this.state.content}
                       />
@@ -53,7 +61,11 @@ class QuoteForm extends Component {
                   <div className="form-group">
                     <label htmlFor="author" className="col-md-4 control-label">Author</label>
                     <div className="col-md-5">
+<<<<<<< HEAD
                       <input name="author" onChange={event => this.handleOnChange(event)}
+=======
+                      <input name="author"
+>>>>>>> f8e88917e1d650d06d376331c7ad89e440911536
                         className="form-control"
                         type="text"
                         value={this.state.author}
