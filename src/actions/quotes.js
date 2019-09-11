@@ -1,6 +1,7 @@
 // TODO: Create action creators as defined in tests
+
 // export function addQuote(quote= {}) {
-//   return {type: "ADD_QUOTE", 
+//   return {type: "ADD_QUOTE",
 //   quote: Object.assign({}, quote, {votes:0})};
 // }
 
